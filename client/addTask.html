@@ -1,0 +1,26 @@
+<template name="addTask">
+    <div class="row">
+        <div class="col-xl-6 addTaskFrame-Top pt-4 px-5">
+            <div class="input-group mb-3 " id="js-addTaskGroup">
+                <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-list-check"></i></span>
+                <input type="text" class="form-control inputTaskSize" id="newTask" placeholder="Add A Task" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xl-6 addTaskFrame-sides px-5 py-2 text-end">
+            >
+                <button class="btn btn-outline-dark ms-4 js-PrivateTask" type="button">
+                    <i class="fa-solid fa-check d-none"></i>
+                    <i class="fa-solid fa-xmark"></i>
+                    <span class="addBtnSize">&nbsp;Private</span>
+                </button>
+                <button class="btn btn-outline-secondary" type="button" id="js-add"><span class="addBtnSize">Add</span></button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xl-12 addTaskFrame-bottom px-5 pb-4 pt-2 text-end">
+            
+        </div>
+    </div>
+</template>

@@ -1,0 +1,12 @@
+.body{
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.IconSize{
+font-size: 2rem;
+}
+
+.inputTaskSize, .listTextSize{
+  font-size: 1.5rem !important;
+}
